@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.heman.icu
+REDIS_HOST: redis.heman.icu
+MYSQL_HOST: mysql.heman.icu
+RABBITMQ_HOST: rabbitmq.heman.icu
+CATALOGUE_HOST: catalogue.heman.icu
+USER_HOST: user.heman.icu
+CART_HOST: cart.heman.icu
+SHIPPING_HOST: shipping.heman.icu
+PAYMENT_HOST: payment.heman.icu
