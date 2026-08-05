@@ -2,8 +2,8 @@ MONGODB_HOST: mongodb-{{ env }}.heman.icu
 REDIS_HOST: redis-{{ env }}.heman.icu
 MYSQL_HOST: mysql-{{ env }}.heman.icu
 RABBITMQ_HOST: rabbitmq-{{ env }}.heman.icu
-CATALOGUE_HOST: catalogue-{{ env }}.heman.icu
-USER_HOST: user-{{ env }}.heman.icu
-CART_HOST: cart-{{ env }}.heman.icu
-SHIPPING_HOST: shipping-{{ env }}.heman.icu
-PAYMENT_HOST: payment-{{ env }}.heman.icu
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.heman.icu
+USER_HOST: user.backend-alb-{{ env }}.heman.icu
+CART_HOST: cart.backend-alb-{{ env }}.heman.icu
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.heman.icu
+PAYMENT_HOST: payment.backend-alb-{{ env }}.heman.icu
